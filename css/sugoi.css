@@ -1,0 +1,15 @@
+.LikeButton > .p-button::after {
+    content: "すごーい！";
+}
+.LikeButton > .p-button > span:not(.fa) {
+    display: none;
+}
+
+.LikeLabel__text::after {
+    content: "すごーい！";
+    font-size: 16px;
+}
+
+.LikeLabel__text {
+    font-size: 0;
+}
