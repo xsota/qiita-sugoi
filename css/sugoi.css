@@ -5,6 +5,15 @@
     display: none;
 }
 
+.itemsShowHeaderStock_statusList > li:first-child > .itemsShowHeaderStock_countText::after{
+  content: "すごーい！";
+  font-size: 12px;
+}
+
+.itemsShowHeaderStock_statusList > li:first-child > .itemsShowHeaderStock_countText{
+  font-size: 0px;
+}
+
 .LikeLabel__text::after {
     content: "すごーい！";
     font-size: 16px;
